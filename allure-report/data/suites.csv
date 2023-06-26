@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jun 25 19:06:34 CEST 2023","Sun Jun 25 19:06:37 CEST 2023","3279","","com.neznatnov.tests.CiscoMainPageTest","","com.neznatnov.tests.CiscoMainPageTest","contactBar","contactBar()",""
+"passed","Sun Jun 25 19:15:35 CEST 2023","Sun Jun 25 19:15:38 CEST 2023","3111","","com.neznatnov.tests.CiscoMainPageTest","","com.neznatnov.tests.CiscoMainPageTest","logoExist","logoExist()",""

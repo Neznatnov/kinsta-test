@@ -1,0 +1,1 @@
+{"uuid":"b8c2bd3b-c2eb-4d9e-a449-1f9f1d2e3c88","name":"logoExist()","children":["11ab1bae-2529-4716-929e-3ab2a9ddd535"],"befores":[{"name":"addListener","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1687713063107,"stop":1687713063110}],"afters":[],"start":1687713062858,"stop":1687713066106}

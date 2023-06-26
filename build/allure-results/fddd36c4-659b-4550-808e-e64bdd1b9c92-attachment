@@ -1,0 +1,1 @@
+[2023-06-25T18:36:51.656Z] [SEVERE] https://kinsta.com/wp-content/themes/kinsta/dist/main.js?ver=449487d27d4f2c56bb7a 0:203125 Uncaught TypeError: Cannot read properties of null (reading 'querySelector')
