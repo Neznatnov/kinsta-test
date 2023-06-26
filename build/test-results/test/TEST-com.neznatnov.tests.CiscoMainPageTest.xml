@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.neznatnov.tests.CiscoMainPageTest" tests="5" skipped="0" failures="1" errors="0" timestamp="2023-06-26T12:11:04" hostname="MacBook-Air-Veronika.local" time="20.174">
+<testsuite name="com.neznatnov.tests.CiscoMainPageTest" tests="5" skipped="0" failures="1" errors="0" timestamp="2023-06-26T13:36:32" hostname="MacBook-Air-Veronika.local" time="14.847">
   <properties/>
-  <testcase name="changeLanguage()" classname="com.neznatnov.tests.CiscoMainPageTest" time="8.928"/>
-  <testcase name="logoExist()" classname="com.neznatnov.tests.CiscoMainPageTest" time="2.148"/>
-  <testcase name="videoPlaying()" classname="com.neznatnov.tests.CiscoMainPageTest" time="6.594">
-    <failure message="Element not found {by text: Accept All Cookies}&#10;Expected: clickable: interactable and enabled&#10;Screenshot: file:/Users/veronikaackaa/IdeaProjects/test1/build/reports/tests/1687781481476.0.png&#10;Page source: file:/Users/veronikaackaa/IdeaProjects/test1/build/reports/tests/1687781481476.0.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Accept All Cookies}
+  <testcase name="Check language change on main page, german" classname="com.neznatnov.tests.CiscoMainPageTest" time="6.87"/>
+  <testcase name="Check logo exists on the main page" classname="com.neznatnov.tests.CiscoMainPageTest" time="0.727"/>
+  <testcase name="Check video, UNDONE" classname="com.neznatnov.tests.CiscoMainPageTest" time="5.335">
+    <failure message="Element not found {by text: Accept All Cookies}&#10;Expected: clickable: interactable and enabled&#10;Screenshot: file:/Users/veronikaackaa/IdeaProjects/test1/build/reports/tests/1687786604302.0.png&#10;Page source: file:/Users/veronikaackaa/IdeaProjects/test1/build/reports/tests/1687786604302.0.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '" type="com.codeborne.selenide.ex.ElementNotFound">Element not found {by text: Accept All Cookies}
 Expected: clickable: interactable and enabled
-Screenshot: file:/Users/veronikaackaa/IdeaProjects/test1/build/reports/tests/1687781481476.0.png
-Page source: file:/Users/veronikaackaa/IdeaProjects/test1/build/reports/tests/1687781481476.0.html
+Screenshot: file:/Users/veronikaackaa/IdeaProjects/test1/build/reports/tests/1687786604302.0.png
+Page source: file:/Users/veronikaackaa/IdeaProjects/test1/build/reports/tests/1687786604302.0.html
 Timeout: 4 s.
 Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*/text()[normalize-space(translate(string(.), '
 	at app//com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:91)
@@ -21,9 +21,9 @@ Caused by: NoSuchElementException: no such element: Unable to locate element: {&
 	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:162)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
 	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
-	at app//com.sun.proxy.$Proxy14.click(Unknown Source)
-	at app//com.neznatnov.pages.CiscoMainPage.removeFooter(CiscoMainPage.java:35)
-	at app//com.neznatnov.tests.CiscoMainPageTest.videoPlaying(CiscoMainPageTest.java:22)
+	at app//com.sun.proxy.$Proxy15.click(Unknown Source)
+	at app//com.neznatnov.pages.CiscoMainPage.removeFooter(CiscoMainPage.java:27)
+	at app//com.neznatnov.tests.CiscoMainPageTest.videoPlaying(CiscoMainPageTest.java:36)
 	at java.base@11.0.17/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@11.0.17/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base@11.0.17/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -121,10 +121,10 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.9.1', revision: 'eb2032df7f'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.4', java.version: '11.0.17'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ff036fa3ffddf56b96c5f80f9f6b752f, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
+Command: [48b4014656e1b83f9d3138df7a8c8ab3, findElement {using=xpath, value=.//*/text()[normalize-space(translate(string(.), '	
  ', '    ')) = &quot;Accept All Cookies&quot;]/parent::*}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/s3/fnwwk85939x...}, goog:chromeOptions: {debuggerAddress: localhost:57296}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57296/devtoo..., se:cdpVersion: 114.0.5735.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ff036fa3ffddf56b96c5f80f9f6b752f
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/s3/fnwwk85939x...}, goog:chromeOptions: {debuggerAddress: localhost:57999}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57999/devtoo..., se:cdpVersion: 114.0.5735.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 48b4014656e1b83f9d3138df7a8c8ab3
 	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
 	at java.base@11.0.17/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base@11.0.17/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
@@ -147,27 +147,27 @@ Session ID: ff036fa3ffddf56b96c5f80f9f6b752f
 	... 100 more
 </failure>
   </testcase>
-  <testcase name="searchExist()" classname="com.neznatnov.tests.CiscoMainPageTest" time="1.139"/>
-  <testcase name="contactBar()" classname="com.neznatnov.tests.CiscoMainPageTest" time="1.358"/>
+  <testcase name="Check search text placeholder on the main page" classname="com.neznatnov.tests.CiscoMainPageTest" time="0.875"/>
+  <testcase name="Check the correct text in Contact bar on main page" classname="com.neznatnov.tests.CiscoMainPageTest" time="1.031"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: /Users/veronikaackaa/IdeaProjects/test1/build/downloads/1687781464673_7951_1
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: /Users/veronikaackaa/IdeaProjects/test1/build/downloads/1687786592266_8467_1
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/veronikaackaa/.cache/selenium/chromedriver/mac-arm64/114.0.5735.90/chromedriver
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 16107
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 31538
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
-июн. 26, 2023 2:11:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+июн. 26, 2023 3:36:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=114.0.5735.133 Platform=mac
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.15.0
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.9.1 build revision: eb2032df7f
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on mac (ff036fa3ffddf56b96c5f80f9f6b752f)
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on mac (ff036fa3ffddf56b96c5f80f9f6b752f),proxy=null,downloadsFolder=/Users/veronikaackaa/IdeaProjects/test1/build/downloads/1687781464673_7951_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on mac (48b4014656e1b83f9d3138df7a8c8ab3)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on mac (48b4014656e1b83f9d3138df7a8c8ab3),proxy=null,downloadsFolder=/Users/veronikaackaa/IdeaProjects/test1/build/downloads/1687786592266_8467_1] in 1 [size=1]
 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
 ]]></system-err>
 </testsuite>

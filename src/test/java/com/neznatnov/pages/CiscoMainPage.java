@@ -1,8 +1,6 @@
 package com.neznatnov.pages;
 
 import com.codeborne.selenide.SelenideElement;
-import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ISelect;
 import org.openqa.selenium.support.ui.Select;
 
 import static com.codeborne.selenide.Condition.*;
@@ -15,15 +13,9 @@ public class CiscoMainPage {
     private SelenideElement
             acceptCookies = $(byText("Accept All Cookies")),
             logo = $("svg.icon.icon--logo"),
-
             searchButton = $(".site-menu__search__form").$("input[name='s']"),
-            /*searchField = $("input[name='s']"),
-            videoButton = $(byText("Watch demo")),
-            videoElement = $("#w-vulcan-v2-576"),*/
-
             languageButton = $(byClassName("language-select")),
             contactBar = $("#megamenu-item-7");
-
 
 
     public CiscoMainPage openPage() {
@@ -40,11 +32,9 @@ public class CiscoMainPage {
         logo.should(exist);
         return this;
     }
-    public CiscoMainPage searchExist(){
+    public CiscoMainPage searchPlaceholderText(){
         searchButton.click();
-        //searchField.should(exist);
         assertEquals("Search all Kinsta resources", searchButton.getAttribute("placeholder"));
-
         return this;
     }
 
@@ -55,7 +45,7 @@ public class CiscoMainPage {
 
     public CiscoMainPage changeLanguage(String language){
         languageButton.click();
-        Select select = new Select($(byClassName("language-select")));
+        Select select = new Select(languageButton);
         select.selectByVisibleText(language);
         return this;
     }

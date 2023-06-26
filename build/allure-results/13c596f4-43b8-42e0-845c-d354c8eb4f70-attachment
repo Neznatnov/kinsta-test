@@ -1,0 +1,2 @@
+[2023-06-26T13:36:39.812Z] [SEVERE] https://crb.kargo.com/api/v1/bswsync?bsw_uuid=fb8024de-7050-4fec-9cec-19167b15b2db&dsp_uuid=&dsp_id=&krg_ids=&gdpr=&gdpr_consent=&us_privacy= - Failed to load resource: the server responded with a status of 451 (Unavailable For Legal Reasons)
+[2023-06-26T13:36:39.812Z] [SEVERE] https://sync.crwdcntrl.net/map/c=14774/tp=ACUT/tpid=794325744248 - Failed to load resource: the server responded with a status of 404 ()
