@@ -1,0 +1,3 @@
+[2023-06-26T16:14:50.010Z] [SEVERE] https://tracking.g2crowd.com/attribution_tracking/conversions/3344.js?p=https://kinsta.com/&e= - Failed to load resource: the server responded with a status of 503 ()
+[2023-06-26T16:14:50.109Z] [SEVERE] https://crb.kargo.com/api/v1/bswsync?bsw_uuid=bfcaabf4-3841-496e-8b10-740c5052ddf5&dsp_uuid=&dsp_id=&krg_ids=&gdpr=&gdpr_consent=&us_privacy= - Failed to load resource: the server responded with a status of 451 (Unavailable For Legal Reasons)
+[2023-06-26T16:14:50.364Z] [SEVERE] https://cs.admanmedia.com/sync?dsp=acuity&dsp_id=794351839747&to=https%3A%2F%2Fums.acuityplatform.com%2Fsum%3Fumid%3D134%26auid%3D794351839747%26uid%3D%5BUID%5D - Failed to load resource: the server responded with a status of 400 (Bad Request)

@@ -1,0 +1,2 @@
+[2023-06-26T16:14:52.348Z] [SEVERE] https://tracking.g2crowd.com/attribution_tracking/conversions/3344.js?p=https://kinsta.com/&e= - Failed to load resource: the server responded with a status of 503 ()
+[2023-06-26T16:14:52.417Z] [SEVERE] https://kinsta.com/wp-content/themes/kinsta/dist/main.js?ver=449487d27d4f2c56bb7a 0:203125 Uncaught TypeError: Cannot read properties of null (reading 'querySelector')

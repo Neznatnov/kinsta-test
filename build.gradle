@@ -48,7 +48,3 @@ tasks.withType(Test) {
     useJUnitPlatform()
     systemProperties(System.getProperties())
 }
-
-task simple_tests(type: Test) {
-    useJUnitPlatform()
-}
