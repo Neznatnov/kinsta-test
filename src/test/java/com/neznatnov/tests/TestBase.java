@@ -13,7 +13,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.util.Map;
 
 public class TestBase {
-    CiscoMainPage ciscoMainPage = new CiscoMainPage();
+    //CiscoMainPage ciscoMainPage = new CiscoMainPage();
 
     @BeforeAll
     static void beforeAll() {
@@ -23,7 +23,7 @@ public class TestBase {
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.baseUrl = System.getProperty("https://kinsta.com/");
         Configuration.pageLoadStrategy = "eager";
-        Configuration.browserPosition = "0x0";
+
 
         //Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
 

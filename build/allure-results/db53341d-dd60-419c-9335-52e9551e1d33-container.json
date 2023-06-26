@@ -1,0 +1,1 @@
+{"uuid":"db53341d-dd60-419c-9335-52e9551e1d33","name":"Check search text placeholder on the main page","children":["2d390314-d898-48af-91e6-4c85e2de9843"],"befores":[{"name":"addListener","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1687790764453,"stop":1687790764453}],"afters":[],"start":1687790764452,"stop":1687790770085}
