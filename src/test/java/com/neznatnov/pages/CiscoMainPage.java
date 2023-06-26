@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CiscoMainPage {
     private SelenideElement
-            acceptCookies = $(byText("Accept All Cookies")),
+            acceptCookies = $(".button.button--purple.button--small.button--hoverghost"),
             logo = $("svg.icon.icon--logo"),
             searchButton = $(".site-menu__search__form").$("input[name='s']"),
             languageButton = $(byClassName("language-select")),
