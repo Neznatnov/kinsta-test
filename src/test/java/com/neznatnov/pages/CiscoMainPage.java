@@ -15,7 +15,8 @@ public class CiscoMainPage {
             logo = $("svg.icon.icon--logo"),
             searchButton = $(".site-menu__search__form").$("input[name='s']"),
             languageButton = $(byClassName("language-select")),
-            contactBar = $("#megamenu-item-7");
+            contactBar = $("#megamenu-item-7"),
+            videoButton = $("kinsta-demo-video-modal");
 
 
     public CiscoMainPage openPage() {
@@ -39,7 +40,7 @@ public class CiscoMainPage {
     }
 
     public CiscoMainPage videoPlaying(){
-            $("kinsta-demo-video-modal").shouldHave(attribute("video", "https://kinsta.wistia.com/medias/f57n9mlqfa"));
+            videoButton.click();
         return this;
     }
 

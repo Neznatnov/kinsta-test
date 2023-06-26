@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">4</div>
+<div class="counter">5</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">10.531s</div>
+<div class="counter">12.307s</div>
 <p>duration</p>
 </div>
 </td>
@@ -81,25 +81,31 @@
 <tr>
 <td class="success">Check language change on main page, german</td>
 <td class="success">changeLanguage()</td>
-<td class="success">8.415s</td>
+<td class="success">7.325s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">Check the correct text in Contact bar on main page</td>
 <td class="success">contactBar()</td>
-<td class="success">0.802s</td>
+<td class="success">0.988s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">Check logo exists on the main page</td>
 <td class="success">logoExist()</td>
-<td class="success">0.734s</td>
+<td class="success">0.732s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">Check search text placeholder on the main page</td>
 <td class="success">searchExist()</td>
-<td class="success">0.580s</td>
+<td class="success">0.856s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Check video, UNDONE</td>
+<td class="success">videoPlaying()</td>
+<td class="success">2.406s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -108,23 +114,23 @@
 <h2>Standard error</h2>
 <span class="code">
 <pre>[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: /Users/veronikaackaa/IdeaProjects/test1/build/downloads/1687790786945_9098_1
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: /Users/veronikaackaa/IdeaProjects/test1/build/downloads/1687794449086_9678_1
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 114)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/veronikaackaa/.cache/selenium/chromedriver/mac-arm64/114.0.5735.90/chromedriver
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
-Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 18122
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 12192
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
-июн. 26, 2023 4:46:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+июн. 26, 2023 5:47:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=114.0.5735.133 Platform=mac
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.15.0
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.9.1 build revision: eb2032df7f
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -&gt; ChromeDriver: chrome on mac (bffdb8ab0fa3194a50399502b3811c55)
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on mac (bffdb8ab0fa3194a50399502b3811c55),proxy=null,downloadsFolder=/Users/veronikaackaa/IdeaProjects/test1/build/downloads/1687790786945_9098_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -&gt; ChromeDriver: chrome on mac (20353037abf218f19d7d4739a9d0e2e1)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on mac (20353037abf218f19d7d4739a9d0e2e1),proxy=null,downloadsFolder=/Users/veronikaackaa/IdeaProjects/test1/build/downloads/1687794449086_9678_1] in 1 [size=1]
 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
 </pre>
 </span>
@@ -137,7 +143,7 @@ WARNING: Unable to find an exact match for CDP version 114, so returning the clo
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.5.1</a> at 26 июн. 2023 г., 16:46:37</p>
+<a href="http://www.gradle.org">Gradle 7.5.1</a> at 26 июн. 2023 г., 17:47:41</p>
 </div>
 </div>
 </body>

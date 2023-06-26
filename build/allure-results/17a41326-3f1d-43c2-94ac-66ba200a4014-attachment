@@ -1,0 +1,4 @@
+[2023-06-26T15:47:32.355Z] [SEVERE] https://tracking.g2crowd.com/attribution_tracking/conversions/3344.js?p=https://kinsta.com/&e= - Failed to load resource: the server responded with a status of 503 ()
+[2023-06-26T15:47:32.719Z] [SEVERE] https://sync.crwdcntrl.net/map/c=14774/tp=ACUT/tpid=794348474639 - Failed to load resource: the server responded with a status of 404 ()
+[2023-06-26T15:47:35.985Z] [SEVERE] https://tracking.g2crowd.com/attribution_tracking/conversions/3344.js?p=https://kinsta.com/de/&e= - Failed to load resource: the server responded with a status of 503 ()
+[2023-06-26T15:47:36.115Z] [SEVERE] https://crb.kargo.com/api/v1/bswsync?bsw_uuid=2ca240e5-177f-427b-a89e-67d795897261&dsp_uuid=&dsp_id=&krg_ids=&gdpr=&gdpr_consent=&us_privacy= - Failed to load resource: the server responded with a status of 451 (Unavailable For Legal Reasons)

@@ -35,13 +35,13 @@ public class CiscoMainPageTest extends TestBase {
         });
     }
 
-    /*@Test
+    @Test
     @Tag("smoke")
     @DisplayName("Check video, UNDONE")
     void videoPlaying() {
-        ciscoMainPage.openPage().removeFooter().videoPlaying();
+        ciscoMainPage.openPage().videoPlaying();
     }
-*/
+
     @Test
     @Tag("smoke")
     @DisplayName("Check language change on main page, german")
