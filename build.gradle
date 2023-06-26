@@ -48,8 +48,9 @@ tasks.withType(Test) {
     useJUnitPlatform()
     systemProperties(System.getProperties())
 }
-task test_test(type: Test) {
+task reg_test(type: Test) {
     useJUnitPlatform{
-        includeTags("test")
+        includeTags("registration")
     }
 }
+

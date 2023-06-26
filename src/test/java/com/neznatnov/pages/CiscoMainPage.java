@@ -16,7 +16,16 @@ public class CiscoMainPage {
             searchButton = $(".site-menu__search__form").$("input[name='s']"),
             languageButton = $(byClassName("language-select")),
             contactBar = $("#megamenu-item-7"),
-            videoButton = $("kinsta-demo-video-modal");
+            videoButton = $("kinsta-demo-video-modal"),
+            mainPageTitle = $("h1.wp-block-kinsta-hero-title__title"),
+            megaMenuContactTitle = $("#megamenu-contact .megamenu__level-2__item__title"),
+            megaMenuContactDescription = $("#megamenu-contact .megamenu__level-2__item__description"),
+            megaMenuBox22Title = $("#megamenu-box-22 .megamenu__level-2__item__title"),
+            megaMenuBox22Description =  $("#megamenu-box-22 .megamenu__level-2__item__description"),
+            megaMenuBox23Title = $("#megamenu-box-23 .megamenu__level-2__item__title"),
+            megaMenuBox23Description =  $("#megamenu-box-23 .megamenu__level-2__item__description"),
+            megaMenuBox24Title = $("#megamenu-box-24 .megamenu__level-2__item__title"),
+            megaMenuBox24Description  =  $("#megamenu-box-24 .megamenu__level-2__item__description");
 
 
     public CiscoMainPage openPage() {
@@ -48,22 +57,24 @@ public class CiscoMainPage {
         languageButton.click();
         Select select = new Select(languageButton);
         select.selectByVisibleText(language);
+        mainPageTitle.shouldHave(text("Ihr neues Zuhause für moderne Webanwendungen und Websites"));
+
         return this;
     }
 
     public CiscoMainPage checkContactBar(){
         contactBar.hover();
-        $("#megamenu-contact .megamenu__level-2__item__title").shouldHave(text("Talk to sales"));
-        $("#megamenu-contact .megamenu__level-2__item__description").shouldHave(text("Call +44 808 2583 915 to find the best hosting for you."));
+        megaMenuContactTitle.shouldHave(text("Talk to sales"));
+        megaMenuContactDescription.shouldHave(text("Call +44 808 2583 915 to find the best hosting for you."));
 
-        $("#megamenu-box-22 .megamenu__level-2__item__title").shouldHave(text("Request a live demo"));
-        $("#megamenu-box-22 .megamenu__level-2__item__description").shouldHave(text("Get a personalized demo of our powerful dashboard and hosting features."));
+        megaMenuBox22Title.shouldHave(text("Request a live demo"));
+        megaMenuBox22Description.shouldHave(text("Get a personalized demo of our powerful dashboard and hosting features."));
 
-        $("#megamenu-box-23 .megamenu__level-2__item__title").shouldHave(text("Ask questions"));
-        $("#megamenu-box-23 .megamenu__level-2__item__description").shouldHave(text("Tell us about your website or project. We'll get back to you in one business day."));
+        megaMenuBox23Title.shouldHave(text("Ask questions"));
+        megaMenuBox23Description.shouldHave(text("Tell us about your website or project. We'll get back to you in one business day."));
 
-        $("#megamenu-box-24 .megamenu__level-2__item__title").shouldHave(text("Get help from our support team"));
-        $("#megamenu-box-24 .megamenu__level-2__item__description").shouldHave(text("Talk with our experts by launching a chat in the MyKinsta dashboard."));
+        megaMenuBox24Title.shouldHave(text("Get help from our support team"));
+        megaMenuBox24Description.shouldHave(text("Talk with our experts by launching a chat in the MyKinsta dashboard."));
     return this;
     }
 }
