@@ -3,42 +3,44 @@ package com.neznatnov.tests;
 import com.codeborne.selenide.Selenide;
 import com.neznatnov.pages.CiscoMainPage;
 import org.junit.jupiter.api.DisplayName;
-import static io.qameta.allure.Allure.step;
 import org.junit.jupiter.api.Test;
+
+import static io.qameta.allure.Allure.step;
 
 public class CiscoMainPageTest extends TestBase {
     CiscoMainPage ciscoMainPage = new CiscoMainPage();
+
     @Test
     @DisplayName("Check logo exists on the main page")
-    void logoExist(){
+    void logoExist() {
         step("Open website kinsta", () -> {
             ciscoMainPage.openPage();
         });
         step("Verify result img", () -> {
-        ciscoMainPage.logoExist();
+            ciscoMainPage.logoExist();
         });
     }
 
     @Test
     @DisplayName("Check search text placeholder on the main page")
-    void searchExist(){
+    void searchExist() {
         step("Open website kinsta", () -> {
-        ciscoMainPage.openPage();
+            ciscoMainPage.openPage();
         });
         step("Verify result text", () -> {
-        ciscoMainPage.searchPlaceholderText();
+            ciscoMainPage.searchPlaceholderText();
         });
     }
 
     @Test
     @DisplayName("Check video, UNDONE")
-    void videoPlaying(){
+    void videoPlaying() {
         ciscoMainPage.openPage().removeFooter().videoPlaying();
     }
 
     @Test
     @DisplayName("Check language change on main page, german")
-    void changeLanguage(){
+    void changeLanguage() {
         step("Open website kinsta", () -> {
             ciscoMainPage.openPage();
         });
@@ -56,15 +58,15 @@ public class CiscoMainPageTest extends TestBase {
         });
     }
 
-@Test
-@DisplayName("Check the correct text in Contact bar on main page")
-void contactBar(){
-    step("Open website kinsta", () -> {
-        ciscoMainPage.openPage();
-    });
-    step("Verify result text", () -> {
-        ciscoMainPage.checkContactBar();
-    });
+    @Test
+    @DisplayName("Check the correct text in Contact bar on main page")
+    void contactBar() {
+        step("Open website kinsta", () -> {
+            ciscoMainPage.openPage();
+        });
+        step("Verify result text", () -> {
+            ciscoMainPage.checkContactBar();
+        });
     }
 
 }
