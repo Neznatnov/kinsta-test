@@ -10,7 +10,7 @@ import static io.qameta.allure.Allure.step;
 
 public class CiscoMainPageTest extends TestBase {
     CiscoMainPage ciscoMainPage = new CiscoMainPage();
-    @Tag("registration")
+    @Tag("simple")
     @Test
     @DisplayName("Check logo exists on the main page")
     void logoExist() {
@@ -21,7 +21,7 @@ public class CiscoMainPageTest extends TestBase {
             ciscoMainPage.logoExist();
         });
     }
-    @Tag("registration")
+    @Tag("simple")
     @Test
     @DisplayName("Check search text placeholder on the main page")
     void searchExist() {
@@ -32,13 +32,13 @@ public class CiscoMainPageTest extends TestBase {
             ciscoMainPage.searchPlaceholderText();
         });
     }
-    @Tag("registration")
+    @Tag("simple")
     @Test
     @DisplayName("Check video, INPROCESS")
     void videoPlaying() {
         ciscoMainPage.openPage().videoPlaying();
     }
-    @Tag("registration")
+    @Tag("simple")
     @Test
     @DisplayName("Check language change on main page, german")
     void changeLanguage() {
@@ -58,7 +58,7 @@ public class CiscoMainPageTest extends TestBase {
             ciscoMainPage.changeLanguage("Deutsch");
         });
     }
-    @Tag("registration")
+    @Tag("simple")
     @Test
     @DisplayName("Check the correct text in Contact bar on main page")
     void contactBar() {

@@ -24,7 +24,7 @@ public class TestBase {
         Configuration.baseUrl = System.getProperty("https://kinsta.com/");
         Configuration.pageLoadStrategy = "eager";
 
-
+        Configuration.remote = System.getProperty("remote", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
