@@ -17,11 +17,13 @@ public class TestBase {
 
     @BeforeAll
     static void beforeAll() {
-        Configuration.pageLoadStrategy = "eager";
+
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserVersion = System.getProperty("browser_version", "100.0");
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.baseUrl = System.getProperty("https://kinsta.com/");
+        Configuration.pageLoadStrategy = "eager";
+        Configuration.browserPosition = "0x0";
 
         //Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
 
