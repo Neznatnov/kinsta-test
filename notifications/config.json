@@ -2,8 +2,8 @@
   "base": {
     "logo": "",
     "project": "${JOB_BASE_NAME}",
-    "environment": "qa.guru",
-    "comment": "any comment here",
+    "environment": "${BASE_URL}",
+    "comment": "@neznatnov launch in ${BROWSER} with version ${BROWSER_VERSION} and resolution ${BROWSER_SIZE}",
     "reportLink": "${BUILD_URL}",
     "language": "en",
     "allureFolder": "allure-report/",
