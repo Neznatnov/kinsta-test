@@ -2,7 +2,7 @@
 
 > Kinsta is a Cloud Platform designed to help companies and dev teams ship and manage their web projects faster and more efficiently.
 
-<img title="Jenkins Build" src="images/screens/">
+<img title="Kinsta Main" src="images/screens/kinstamain.png">
 
 ## :pushpin: Content:
 
@@ -65,7 +65,7 @@ ${TASK}
 
 ## <img width="4%" style="vertical-align:middle" title="Jenkins" src="images/logo/Jenkins.svg"> Build in [Jenkins](url)
 <p align="center">
-<img title="Jenkins Build" src="images/screens/">
+<img title="Jenkins Build" src="images/screens/jenkins.png">
 
 </p>
 
@@ -73,13 +73,13 @@ ${TASK}
 ### Overview
 
 <p align="center">
-<img title="Allure Overview" src="images/screens/">
+<img title="Allure Overview" src="images/screens/alluremain.png">
 </p>
 
 ### Test result
 
 <p align="center">
-<img title="Test Results in Allure" src="images/screens/">
+<img title="Test Results in Allure" src="images/screens/alluretests.png">
 </p>
 
 ## <img width="4%" style="vertical-align:middle" title="Allure TestOps Report" src="images/logo/Allure_TO.svg"> [Allure TestOps](url) Integration
@@ -87,7 +87,7 @@ ${TASK}
 Also we can connect <code>Jenkins</code> to the commercial version of <code>Allure</code>, which provides an opportunity to add there manual tests as well as an automated ones:
 
 <p align="center">
-<img title="Test Results in Allure" src="images/screens/">
+<img title="Test Results in Allure" src="images/screens/alluretestops.png">
 </p>
 
 ## <img width="4%" style="vertical-align:middle" title="Jira Integration" src="images/logo/Jira.svg"> [Jira](url) Integration
@@ -95,18 +95,18 @@ Also we can connect <code>Jenkins</code> to the commercial version of <code>Allu
 And also we can see from <code>Jira</code>, which tests been added to <code>Allure</code> with their statuses
 
 <p align="center">
-<img title="Allure Overview" src="images/screens/">
+<img title="Allure Overview" src="images/screens/jira.png">
 </p>
 
 ## <img width="4%" style="vertical-align:middle" title="Telegram" src="images/logo/Telegram.svg"> Telegram notifications
 
 <p align="center">
-<img width="50%" title="Telegram Notifications" src="images/screens/">
+<img width="50%" title="Telegram Notifications" src="images/screens/telegram.png">
 </p>
 
 ## <img width="4%" style="vertical-align:middle" title="Selenoid" src="images/logo/Selenoid.svg"> Video of an example of running a test in Selenoid
 
 A video is attached to each test in the report. One of these videos is shown below.
 <p align="center">
-  <img title="Selenoid Video" src="images/video/">
+  <img title="Selenoid Video" src="images/video/video.gif">
 </p>
