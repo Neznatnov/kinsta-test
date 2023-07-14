@@ -42,6 +42,13 @@
 * Browser console logs
 * Video of run
 
+## :desktop_computer: Running autotests from the terminal
+Lauching tests on a ***remote server*** using Jenkins and Selenoid (login and password are required for authorization) can be done using the following command from the terminal:
+```bash  
+gradle clean remote
+```
+
+If you do not specify any parameters, then the test will run with the default values that we set above.
 
 ## :rocket: Running tests
 
@@ -49,18 +56,22 @@ If necessary, you can override the launch options:
 
 ```
 clean
-${TASK}
--Dbase_url=${BASE_URL}
--Dbrowser=${BROWSER}
--Dbrowser_size=${SIZE}
+simple_test
+--info
+"-Dbrowser=${BROWSER}"
+"-DbrowserVersion=${BROWSER_VERSION}"
+"-DbrowserSize=${BROWSER_SIZE}"
+"-DbaseUrl=${BASE_URL}"
+"-Dremote=${REMOTE}"
 ```
 
 ### Build options
 
-* <code>TASK</code> is the name of the task. The default is <code>test</code> to run all of them.
 * <code>BROWSER</code> is the browser in which the tests will be run. The default is <code>chrome</code>.
 * <code>VERSION</code> is the browser version in which the tests will be run. The default is <code>100.00</code>.
 * <code>SIZE</code> is the size of the browser window in which tests will be run. The default is <code>1920x1080</code>
+* <code>BASE_URL</code> is the url that will open the application under test. By default - <code>https://kinsta.com</code>.
+* <code>REMOTE_URL</code> is the address of the remote browser.
 
 
 ## <img width="4%" style="vertical-align:middle" title="Jenkins" src="images/logo/Jenkins.svg"> Build in [Jenkins](url)
