@@ -7,9 +7,9 @@
 ## :pushpin: Content:
 
 - [Stack of technologies](#computer-stack-of-technologies)
-- [Running tests](#running_woman-running-tests)
+- [Running tests](#desktop_computer-running-autotests-from-the-terminal)
 - [Build in Jenkins](#-build-in-jenkins)
-- [Allure report](#-allure-report)
+- [Allure report](#-allurereport)
 - [Allure TestOps Integration](#-allure-testops-integration)
 - [Jira Integration](#-jira-integration)
 - [Telegram notifications](#-telegram-notifications)
@@ -49,8 +49,6 @@ gradle clean remote
 ```
 
 If you do not specify any parameters, then the test will run with the default values that we set above.
-
-## :rocket: Running tests
 
 If necessary, you can override the launch options:
 
