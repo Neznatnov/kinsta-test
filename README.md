@@ -9,7 +9,7 @@
 - [Stack of technologies](#computer-stack-of-technologies)
 - [Running tests](#desktop_computer-running-autotests-from-the-terminal)
 - [Build in Jenkins](#-build-in-jenkins)
-- [Allure report](#-allurereport)
+- [Allure report](#-allure-report)
 - [Allure TestOps Integration](#-allure-testops-integration)
 - [Jira Integration](#-jira-integration)
 - [Telegram notifications](#-telegram-notifications)
@@ -78,7 +78,7 @@ simple_test
 
 </p>
 
-## <img width="4%" style="vertical-align:middle" title="Allure Report" src="images/logo/Allure.svg"> [Allure](url)report
+## <img width="4%" style="vertical-align:middle" title="Allure Report" src="images/logo/Allure.svg"> [Allure](url) report
 ### Overview
 
 <p align="center">
